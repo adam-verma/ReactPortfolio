@@ -1,0 +1,104 @@
+#projects {
+    height: 100vh;
+    text-align: center;
+    position: relative;
+}
+
+.portfolio {
+    font-size: 2.5em;
+    position: relative;
+    display: block;
+    top: 60px;
+}
+
+.project-item {
+    display: inline-block;
+    height: 120px;
+    width: 160px;
+    position: relative;
+    margin: 5% 5% 0%;
+    overflow: hidden;
+}
+
+.overlay {
+    height: 100%;
+    position: relative;
+    border: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.overlay:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 100%;
+    background-color:black;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition: 300ms ease-out;
+    transition: 300ms ease-out;
+}
+
+.overlay:hover:before {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+}   
+
+.project-title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#projects #scrollbutton a {
+    position: absolute;
+    right: 50%;
+    bottom: 5%;
+    transform: scale(2.0) rotate(180deg);
+    color: black; 
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    scroll-behavior: smooth;
+}
+
+#scrollbutton i:hover {
+    color: #a17223;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .project-item {
+        height: 33%;
+        width: 33%;
+    }
+
+    .portfolio {
+        font-size: 33%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}

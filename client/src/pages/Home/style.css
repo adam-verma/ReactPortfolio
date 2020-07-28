@@ -1,0 +1,82 @@
+#home {
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+
+header {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(161, 114, 35, 0.4);
+    height: 60%;
+    width: 70%;
+    padding-top: 2%;
+    border: none;
+    border-radius: 5em;
+    overflow: hidden;
+}
+
+header .headline {
+    color: black;
+    position: relative;
+}
+
+.brand {
+    font-size: 1.4em;
+    color: black;
+    font-family: 'Crimson Pro', serif;   
+}
+
+header .brand::after{ 
+    content: '';
+    display: inherit;
+    width: 50%;
+    margin: 2% auto 0px;
+    border-top: 1px solid #202020;
+}
+
+header > .media-container {
+    top: 10px;
+    position: relative;
+    left: 35%;
+}
+
+header .media-container .media > li {
+    list-style: none;
+    padding: 0 0.8em;
+    transform: scale(2.0);
+
+}
+
+.media-container .media > li > a {
+    color: black;
+}
+
+.media-container .media > li > a:hover {
+    color: #a17223;
+}
+
+#home #scrollbutton a {
+    position: absolute;
+    right: 50%;
+    bottom: 5%;
+    transform: scale(2.0) rotate(180deg);
+    color: black; 
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+#scrollbutton i:hover {
+    color: #a17223;
+}
+
+

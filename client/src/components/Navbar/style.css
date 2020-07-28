@@ -1,0 +1,29 @@
+.nav-item {
+  font-weight: bold;
+  transform-style: preserve-3d;
+  padding: 5px;
+  margin-right: 5px;
+  position: relative;
+}
+
+.nav-item:hover {
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  z-index:100;
+}
+
+.navbar {
+  background-color: transparent;
+  background-image: url("https://www.transparenttextures.com/patterns/soft-wallpaper.png");
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  /* background-color: #363508; */
+}
+
+li.nav-item > .active {
+  color: white;
+  font-weight: bold;
+}
+

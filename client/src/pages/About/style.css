@@ -1,0 +1,81 @@
+#about {
+    height: 100%;
+    position: relative;
+    display: grid;
+    scroll-behavior: smooth;
+}
+
+.aboutheading { 
+    width: 100%;
+    text-align: center;
+}
+
+.profpic { 
+    border-radius: 1.2em;
+    margin-left: 2%;
+    margin: 4%;
+}
+
+.contactheading {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#resumeWrapper {
+    position: relative;
+    width: 200px;
+    top: 10%;
+    text-align: center;
+    margin: 4%;
+}   
+
+.downloadresume {
+    display: inline;
+    color: white;
+    border-radius:  0.2em;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #a17223;
+    padding: 0.3em;
+}
+
+.downloadresume:hover {
+    background-color: white;
+}
+
+.downloadresume i {  
+    font-size: 1.5em;
+    padding-right: 15px;
+}
+
+#about p {
+    color: white;
+}
+
+a { 
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a17223;
+    text-decoration: none;
+}
+
+#about #scrollbutton a {
+    position: absolute;
+    right: 50%;
+    bottom: 5%;
+    transform: scale(2.0) rotate(180deg);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}

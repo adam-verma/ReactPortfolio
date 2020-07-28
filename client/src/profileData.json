@@ -1,0 +1,90 @@
+[
+    {
+    "about": 
+        {
+        "intro":"I am ",
+        "name": "Adam Verma",
+        "email": "vermaadam@gmail.com",
+        "number": "(281) 935-4060",
+        "citystatezip": "Houston, TX, 77059",
+        "resume": {
+            "education":[{
+                "university": "The University of Texas at Austin", 
+                "degree": "Full Stack Development Certificate",
+                "grad_year": "March 2020",
+                "description": ""
+            },
+            {
+                "university": "The University of Texas at Austin", 
+                "degree": [
+                    "Bachelor of Science, Petroleum Engineering",
+                    "Texas Business Foundations Certificate"],
+                "grad_year": "August 2018",
+                "description": ""
+            },
+            {
+                "university": "Delft Institute of Technology", 
+                "degree": "Study Abroad Credit, Petroleum Engineering and Geosystems",
+                "grad_year": "August 2018",
+                "description": ""
+            }
+            ],
+            "work": [{
+                "company": "",
+                "position": "",
+                "timespan": "",
+                "description": ""
+            }], 
+            "skills": [{
+                "name": "",
+                "strength": ""
+            }]
+        },
+        "profpic": "../../media/images/headshot.jpg"
+        },
+    "home": 
+        {
+        "brand_statement": "Web Developer with a certificate in full stack development and degree in Petroleum Engineering at the University of Texas at Austin handling a variety of databases and data pipelines, building and deploying responsive web applications with user-focused design on secure servers.",
+        "social": [{
+            "name": "network",
+            "url": "https://www.linkedin.com/in/adam-verma",
+            "icon": "fab fa-linkedin"
+        },
+        {
+            "name": "network",
+            "url": "https://github.com/adam-verma",
+            "icon": "fab fa-github"
+        },
+        {
+            "name": "network",
+            "url": "https://www.instagram.com/verma_celli",
+            "icon": "fab fa-instagram"
+        }]
+        },
+    "projects": [{
+            "title": "Google Books Search: MERN App",
+            "image": "",
+            "url": "https://github.com/adam-verma/MERN-Google-Books-Search"
+        }, 
+        {
+            "title": "NutriFit",
+            "image":"",
+            "url": "https://adam-verma.github.io/project-1/"
+        },
+        {
+            "title": "Parks Scraping: MERN App",
+            "image": "",
+            "url": "https://github.com/adam-verma/MongoDB-Web-Scraping"
+        },
+        {
+            "title": "Clicky Game: MERN App",
+            "image": "",
+            "url": "https://github.com/adam-verma/React-ClickyGame"
+        },
+        {
+            "title": "FoodFeed: MERN App",
+            "image": "",
+            "url": "https://github.com/adam-verma/FoodFeed"
+        }]
+    }
+]
