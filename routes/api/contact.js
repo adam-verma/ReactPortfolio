@@ -1,9 +1,11 @@
 const router = require("express").Router();
-const contactController = require("../../controllers").contactController;
+const contactController = require("../../controllers/contactController");
 
 router.route("/:id")
     .get(contactController.findbyId)
-    .put(contactController.saveContact)
+    // .put(contactController.saveContact)
 
 router.route("/")
-    .put(contactController.saveContact)
+    .post(contactController.saveContact)
+
+module.exports = router;

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Column } from "../../components/Grid";
 import {FormBtn, Input, TextArea} from "../../components/Form";
-import saveContact from "../../utils/api"; 
+import api from "../../utils/api"; 
 import Background from "../../components/Background";
 import "./style.css";
 
@@ -30,9 +30,10 @@ const Contact = () => {
         event.preventDefault();
         if (inputFields.name && inputFields.email && inputFields.message) {
             try {
-                await saveContact({
-                ...inputFields,
-                });
+                console.log(inputFields);
+                await api.saveContact({
+                    ...inputFields,
+                })
                 setinputFields({
                 name: "",
                 email: "",
