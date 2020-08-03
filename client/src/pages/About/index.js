@@ -47,10 +47,12 @@ const About = () => {
                         </p>
                         </Col>
                         <Col size="md-9">
+                            <div className="about-banner">
                             <h4 className="contactheading">Contact Info</h4>
                             {props.name} 
                             {props.contact}
                             {props.address}
+                            </div>
                         </Col>
                     </Row>
                     <div id="scrollbutton">

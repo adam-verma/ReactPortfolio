@@ -5,6 +5,15 @@
     scroll-behavior: smooth;
 }
 
+.about-banner { 
+    background-color: rgba(161, 114, 35, 0.8);
+    height: auto;
+    width: 70%;
+    margin-top: 4%;
+    border: none;
+    border-radius: 2em;
+    
+}
 .aboutheading { 
     width: 100%;
     text-align: center;
@@ -12,26 +21,28 @@
 
 .profpic { 
     border-radius: 1.2em;
-    margin-left: 2%;
     margin: 4%;
+    top: 4%;
+    padding-left: 4%;
 }
 
 .contactheading {
     position: relative;
-    text-align: center;
     font-weight: bold;
+    padding: 2%;
 }
 
 p {
     position: relative;
-    text-align: center;
     color: white;
+    left: 2%;   
 }
 
 #resumeWrapper {
     position: relative;
     width: 200px;
     top: 10%;
+    left: 4%;
     text-align: center;
     margin: 4%;
 }   

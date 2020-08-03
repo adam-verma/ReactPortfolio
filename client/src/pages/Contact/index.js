@@ -30,7 +30,6 @@ const Contact = () => {
         event.preventDefault();
         if (inputFields.name && inputFields.email && inputFields.message) {
             try {
-                console.log(inputFields);
                 await api.saveContact({
                     ...inputFields,
                 })

@@ -8,6 +8,10 @@ export default {
 
     // Save a contact 
     saveContact: function(contactForm) {
-        return axios.post('/api/contact', contactForm)
+        return axios.post("/api/contact", contactForm, 
+        function() {
+            console.log('success')
+        });
     }
 }
+
