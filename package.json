@@ -4,15 +4,14 @@
   "description": "A Portfolio designed with React, JS, Bootstrap, MongoDB\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dand \u001b[2~Mongo\u001b[2~DB",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "begin": "npm run build && node server.js",
+    "start": "node server.js",
+    "start:original": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
     "client": "cd client && npm run start",
-    "seed": "node scripts/seedDB.js",
     "install": "cd client && npm install",
-    "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build"
+    "build": "cd client && npm run build"
   },
   "repository": {
     "type": "git",
