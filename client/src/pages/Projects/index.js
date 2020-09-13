@@ -24,10 +24,10 @@ const Projects = () => {
                 </div> 
                 <div className="project-content">
                 <Row>
-                    <Col size="6">
+                    <Col size="lg-6">
                     <a href={secondItem.url}>Live App</a>
                     </Col>
-                    <Col size="6">
+                    <Col size="lg-6">
                     <a href={secondItem.github}>GitHub Link</a>
                     </Col>
                 </Row>
