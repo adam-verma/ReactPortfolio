@@ -1,6 +1,6 @@
 #contact {
-    height: 100%;
     z-index: 1;
+    height: 100%;
     position: relative;
     text-align: center;
     margin: auto;
@@ -8,24 +8,19 @@
 }
 
 .contacticon {
+    position: relative;
     width: 100%;
     margin: 0 auto;
 }
 
-.contacticon i { 
-    position: absolute;
+.contacticon .fa-address-book-o { 
+    position: relative;
     padding: 2%;
-    height: 50px;
     font-size: 1.5em;
     top: 50px;
-    left: 0;
     right: 50%;
     color: black;
     transform: scale(1.5);
-}
-
-#scrollbutton > i:hover {
-    color: #a17223;
 }
 
 .form-group {

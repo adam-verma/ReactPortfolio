@@ -8,8 +8,25 @@
 }
 
 .App-body {
-  width: 100%;
   margin-bottom: -100px;
+}
+
+  @media screen and (max-width: 640px) {
+  .App-body {
+    max-width: 33%;
+  } 
+  }
+
+  @media screen and (max-width: 768px) {
+    .App-body {
+    max-width: 68%;
+  }
+  }
+
+  @media screen and (max-width: 980px) {
+    .App-body {
+    max-width: 100%;
+  }
 }
 
 /* :root {

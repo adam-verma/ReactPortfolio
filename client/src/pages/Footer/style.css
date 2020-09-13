@@ -1,24 +1,25 @@
 footer {
-    position: relative;
-    text-align: center;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-    margin-top: -275px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  margin-top: -275px;
   }
   
 footer .copyright::before {
-    content: '';
-    display: inherit;
-    width: 30%;
-    margin: 10px auto;
-    border-top: 1px solid #202020;
+  content: '';
+  display: inherit;
+  width: 30%;
+  margin: 10px auto;
+  border-top: 1px solid #202020;
 }
 
 footer .copyright a {
-    color: #eeeeee;
-    position: relative;
-    padding: 3px 0;
+  color: #eeeeee;
+  position: relative;
+  padding: 3px 0;
   }
 
 footer .copyright span {
@@ -51,10 +52,10 @@ footer .media-container a {
     display: inline-block;
 }
 
-footer .media-container a i {
+footer .media-container a .fa-leaf {
   color: white;
   font-size: 1.2em;
 }
-footer .media-container a i:hover {
+footer .media-container a .fa-leaf:hover {
     color: #a17223;
 }

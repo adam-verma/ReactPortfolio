@@ -20,10 +20,10 @@
 }
 
 .profpic { 
+    position: relative;
     border-radius: 1.2em;
-    margin: 4%;
     top: 4%;
-    padding-left: 4%;
+    left: 4%;
 }
 
 .contactheading {
@@ -32,7 +32,7 @@
     padding: 2%;
 }
 
-p {
+.resumeWrapper {
     position: relative;
     color: white;
     left: 2%;   
@@ -66,16 +66,16 @@ p {
     padding-right: 15px;
 }
 
-#about p {
+#about .resumeWrapper {
     color: white;
 }
 
-a { 
+.smoothscroll { 
     color: white;
     text-decoration: none;
 }
 
-a:hover {
+.smoothscroll:hover {
     color: #a17223;
     text-decoration: none;
 }

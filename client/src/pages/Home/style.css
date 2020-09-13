@@ -9,6 +9,7 @@
 header {
     display: inline-block;
     position: absolute;
+    text-align: center;
     left: 0;
     right: 0;
     top: 0;
@@ -32,6 +33,7 @@ header .headline {
     font-size: 1.4em;
     color: black;
     font-family: 'Crimson Pro', serif;   
+    padding: 0 4%;
 }
 
 header .brand::after{ 
@@ -52,7 +54,6 @@ header .media-container .media > li {
     list-style: none;
     padding: 0 0.8em;
     transform: scale(2.0);
-
 }
 
 .media-container .media > li > a {
@@ -75,7 +76,7 @@ header .media-container .media > li {
     transition: all .3s ease-in-out;
 }
 
-#scrollbutton i:hover {
+#scrollbutton .fa-leaf:hover {
     color: #a17223;
 }
 

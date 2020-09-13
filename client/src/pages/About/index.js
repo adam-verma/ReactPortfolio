@@ -13,7 +13,8 @@ const About = () => {
         resume: "",
         name: "",
         address: "",
-        contact: ""
+        contact: "",
+        technologies: ""
     });
     useEffect(() => {
         let profPic = data.map((attr, i) => {
@@ -29,6 +30,7 @@ const About = () => {
             return (<p className="contact"> <span><a href="mailto:vermaadam@gmail.com">{attr.about.email}</a></span><br/>
                         <span>{attr.about.number}</span> </p>)
         })
+        let technologies = 
         setProps({image: profPic, name: name, contact: contact, address: address})      
     }, [])
 
@@ -52,6 +54,7 @@ const About = () => {
                             {props.name} 
                             {props.contact}
                             {props.address}
+
                             </div>
                         </Col>
                     </Row>

@@ -2,7 +2,7 @@
     {
     "about": 
         {
-        "intro": "To think that coding would be my favorite pastime was laughable. With a goal-driven attitude and knack for  ",
+        "intro": "To think that coding would be my favorite pastime was laughable. With a process-driven attitude and knack for problem solving, I  ",
         "name": "Adam Verma",
         "email": "vermaadam@gmail.com",
         "number": "(281) 935-4060",
@@ -61,30 +61,43 @@
             "icon": "fab fa-instagram"
         }]
         },
-    "projects": [{
-            "title": "Google Books Search: MERN App",
-            "image": "",
-            "url": "https://github.com/adam-verma/MERN-Google-Books-Search"
-        }, 
-        {
-            "title": "NutriFit",
-            "image":"",
-            "url": "https://adam-verma.github.io/project-1/"
-        },
+    "projects": [
         {
             "title": "Parks Scraping: MERN App",
-            "image": "",
-            "url": "https://github.com/adam-verma/MongoDB-Web-Scraping"
+            "image": "mongodbscraper.png",
+            "url": "https://texasparkscrapes.herokuapp.com/",
+            "github": "https://github.com/adam-verma/MongoDB-Web-Scraping"
         },
         {
             "title": "Clicky Game: MERN App",
-            "image": "",
-            "url": "https://github.com/adam-verma/React-ClickyGame"
+            "image": "clickygame.png",
+            "url": "https://react-clicky-sports.herokuapp.com/",
+            "github": "https://github.com/adam-verma/React-ClickyGame"
         },
         {
+            "title": "Google Books Search: MERN App",
+            "image": "googlebooks.png",
+            "url": "https://google-books-finder-app.herokuapp.com/",
+            "github": "https://github.com/adam-verma/MERN-Google-Books-Search"
+        }, 
+        {
+            "title": "NutriFit",
+            "image":"SignInPage.PNG",
+            "url": "https://adam-verma.github.io/project-1/",
+            "github": "https://github.com/adam-verma/project-1"
+        },
+        {
+            "title": "Org Spaces",
+            "image":"organized_spaces.gif",
+            "url": "https://github.com/kibell/My-Spaces",
+            "github": "https://github.com/kibell/My-Spaces"
+        },
+        
+        {
             "title": "FoodFeed: MERN App",
-            "image": "",
-            "url": "https://github.com/adam-verma/FoodFeed"
+            "image": "foodfeed.png",
+            "url": "https://github.com/adam-verma/FoodFeed",
+            "github": "https://github.com/adam-verma/FoodFeed"
         }]
     }
 ]

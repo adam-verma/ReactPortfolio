@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Column } from "../../components/Grid";
+import { Container, Row, Col } from "../../components/Grid";
 import {FormBtn, Input, TextArea} from "../../components/Form";
 import api from "../../utils/api"; 
 import Background from "../../components/Background";
@@ -49,23 +49,21 @@ const Contact = () => {
 
     return (
         <Background backgroundImage={require("../../media/images/contact.jpg")} backgroundSize={"cover"} minHeight={"100vh"} backgroundRepeat={"no-repeat"} backgroundAttachment={"fixed"} backgroundPosition={"center"}> 
-            <Container fluid>
+            <Container>
                 <Row>
                 <a className="contacticon"><i className="fa fa-address-book-o"></i></a>
-                </Row>
-                <Row>
-                    <form id="contact">
-                        <Input type="text" label="Name" name="name" placeholder={"Name (required)"} value={inputFields.name} onChange={handleInputChange} />
-                        <Input type="text" label="Email" name="email" placeholder="Email (required)" value={inputFields.email} onChange={handleInputChange} />
-                        <Input type="text" label="Subject" name="subject" placeholder="Subject (optional)" value={inputFields.subject} onChange={handleInputChange} />
-                        <Input type="text" label="Message" name="message" placeholder="Message (required)" value={inputFields.message} onChange={handleInputChange} />
-                        <FormBtn
-                        disabled={!(inputFields.name && inputFields.email && inputFields.message)}
-                        onClick={handleFormSubmit}
-                        >
-                        Submit
-                        </FormBtn>  
-                    </form>
+                <form id="contact">
+                    <Input type="text" label="Name" name="name" placeholder={"Name (required)"} value={inputFields.name} onChange={handleInputChange} />
+                    <Input type="text" label="Email" name="email" placeholder="Email (required)" value={inputFields.email} onChange={handleInputChange} />
+                    <Input type="text" label="Subject" name="subject" placeholder="Subject (optional)" value={inputFields.subject} onChange={handleInputChange} />
+                    <Input type="text" label="Message" name="message" placeholder="Message (required)" value={inputFields.message} onChange={handleInputChange} />
+                    <FormBtn
+                    disabled={!(inputFields.name && inputFields.email && inputFields.message)}
+                    onClick={handleFormSubmit}
+                    >
+                    Submit
+                    </FormBtn>  
+                </form>
                 </Row>
             </Container>
         </Background>
